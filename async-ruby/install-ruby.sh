@@ -1,6 +1,4 @@
 echo "[*] Before we can get started, we need to install Ruby!"
-echo "[*] Downloading required packages (curl / gnupg2):"
-apt install curl gnupg2 -y
 echo "[*] Adding required GPG key:"
 gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 echo "[*] Downloading the Ruby Version Manager (rvm) and Ruby:"
