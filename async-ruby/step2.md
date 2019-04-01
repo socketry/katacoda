@@ -26,7 +26,7 @@ end
 ## Run the Script
 
 Once we add the code to `script.rb`, we can run it:
-`ruby script.rb`{{executr}}
+`ruby script.rb`{{execute}}
 
 Which will print something like:
 ```
