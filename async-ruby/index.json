@@ -1,0 +1,37 @@
+{
+  "title": "Async Ruby",
+  "description": "Getting started with the async Ruby!",
+  "details": {
+    "intro": {
+      "code": "install-ruby.sh"
+    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md",
+        "code": "create-first-file.sh"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
