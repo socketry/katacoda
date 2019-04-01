@@ -5,8 +5,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "verify": "step1-verify.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
