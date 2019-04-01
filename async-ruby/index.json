@@ -2,9 +2,6 @@
   "title": "Async Ruby",
   "description": "Getting started with the async Ruby!",
   "details": {
-    "intro": {
-      "code": "install-ruby.sh"
-    },
     "steps": [
       {
         "title": "Step 1",
@@ -22,7 +19,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "install-ruby.sh"
     },
     "finish": {
       "text": "finish.md"
