@@ -1,1 +1,1 @@
-[ gem list | grep "async" ] && echo "done"
+$(gem list | grep -q "async") && echo "done"
