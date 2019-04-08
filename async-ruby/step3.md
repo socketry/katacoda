@@ -16,6 +16,8 @@ def example(id)
       puts "Putting #{id} to sleep for #{value} seconds."
       task.sleep(value)
       puts "#{id} woke up!"
+    rescue Async::TimeoutError
+      puts "#{id} timed out!"
     end
   end
 end
