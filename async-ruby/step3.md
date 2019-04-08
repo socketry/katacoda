@@ -14,7 +14,7 @@ def example(id)
     task.with_timeout(0.5) do
       value = rand # get random value
       puts "Putting #{id} to sleep for #{value} seconds."
-      task.sleep(value) 
+      task.sleep(value)
       puts "#{id} woke up!"
     end
   end
