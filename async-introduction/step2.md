@@ -5,21 +5,21 @@ Now that we have `async` installed, lets try writing a simple script (in `~/scri
 ```ruby
 require 'async'
 
-# example function that takes a random ammount of time to complete
+# example function that takes a random amount of time to complete
 def example(id)
-  Async do |task|
-    value = rand # get random value
-    puts "Putting #{id} to sleep for #{value} seconds."
-    task.sleep(value) 
-    puts "#{id} woke up!"
-  end
+	Async do |task|
+		value = rand # get random value
+		puts "Putting #{id} to sleep for #{value} seconds."
+		task.sleep(value) 
+		puts "#{id} woke up!"
+	end
 end
 
 # asynchronously run five example functions
 Async do
-  5.times do |index|
-    example(index)
-  end
+	5.times do |index|
+		example(index)
+	end
 end
 ```
 

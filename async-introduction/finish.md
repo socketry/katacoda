@@ -1,1 +1,1 @@
-Awesome job! That's all I have for now.
+Awesome job! That's all for now.
