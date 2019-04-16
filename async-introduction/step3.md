@@ -32,10 +32,10 @@ end
 
 ## Run the Script
 
-Once we add the code to `script.rb`, we can run it:
-`ruby script.rb`{{executr}}
+Once we add the code to `script.rb`, we can run it: `ruby script.rb`{{executr}}
 
 Which will print something like:
+
 ```
 ruby step3.rb 
 Putting 0 to sleep for 0.799244934361936 seconds.
