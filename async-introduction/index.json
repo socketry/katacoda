@@ -28,6 +28,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ruby"
+    "imageid": "ubuntu1804"
   }
 }

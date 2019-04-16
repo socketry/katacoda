@@ -32,6 +32,6 @@
     ]
   },
   "backend": {
-    "imageid": "ruby"
+    "imageid": "ubuntu1804"
   }
 }
