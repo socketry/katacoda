@@ -26,7 +26,11 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Web Server", "port": 80}
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
